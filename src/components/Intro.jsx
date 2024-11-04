@@ -21,8 +21,8 @@ const Intro = () => {
                 <div className="intro__text">
                     <div className="text">
                         <div>{introText.desc[0]}</div>
-                        <div>{introText.desc[1]}</div>
-                        <div>{introText.desc[2]}</div>
+                        {/* <div>{introText.desc[1]}</div>
+                        <div>{introText.desc[2]}</div> */}
                     </div>
                     <div className="img">
                         <img src={about} alt="어바웃미" />
